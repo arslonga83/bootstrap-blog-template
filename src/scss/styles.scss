@@ -30,3 +30,19 @@ header {
   height: 150px;
   width: 150px;
 }
+
+header.full-width {
+  background: url('../images/single-bg.jpg');
+}
+
+header.right-sidebar {
+  background: url('../images/single-bg2.jpg');
+}
+
+header.full-width,
+header.right-sidebar {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 170px;
+}
